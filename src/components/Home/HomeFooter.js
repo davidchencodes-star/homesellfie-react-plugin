@@ -4,6 +4,11 @@ import UserSecond from "../../assets/home/user-2.png";
 import { PhoneCoverIcon } from "../../utils/svg";
 
 const HomeFooter = () => {
+    const removePhoneCover = () => {
+        document.getElementById("phone-number-cover").classList.add("d-none");
+        document.getElementById("phone-number-cover-text").classList.add("d-none");
+    }
+
     return (
         <div className="d-flex px-8 px-md-9 px-lg-15 px-xl-12 mx-auto w-100 home-footer">
             <div className="d-flex flex-column gap-15 left-content">
@@ -18,8 +23,14 @@ const HomeFooter = () => {
                                 <p className="text-primary fw-normal lh-lg pt-7 pb-7 pt-lg-1 pb-lg-0" style={{ fontSize: 16 }}>
                                     Tel: +490160 7855511
                                 </p>
-                                <PhoneCoverIcon className="position-absolute phone-number-cover" />
-                                <p className="position-absolute phone-number-cover-text fw-normal lh-base text-center cursor-pointer hover-secondary">
+                                <PhoneCoverIcon 
+                                    className="position-absolute phone-number-cover" 
+                                    id="phone-number-cover" />
+                                <p 
+                                    className="position-absolute phone-number-cover-text fw-normal lh-base text-center cursor-pointer hover-secondary"
+                                    id="phone-number-cover-text"
+                                    onClick={removePhoneCover}
+                                >
                                     Zeigen
                                 </p>
                             </div>
