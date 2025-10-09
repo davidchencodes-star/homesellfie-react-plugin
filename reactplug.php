@@ -122,6 +122,13 @@ function shortcodeKontaktiereUnsModal()
 
 add_shortcode('kontaktiere-uns-modal', 'shortcodeKontaktiereUnsModal');
 
+function shortcodeHome()
+{
+    return '<div id="we-home"></div>';
+}
+
+add_shortcode('home', 'shortcodeHome');
+
 
 add_action('wp_enqueue_scripts', 'enq_react');
 function enq_react()

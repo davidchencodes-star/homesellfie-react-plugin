@@ -1,0 +1,615 @@
+@media screen and (min-width: 0px) {
+    .home-header {
+        width: 100%;
+        height: 554px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 70%;
+        margin-bottom: 60px;
+
+        .header-cover {
+            gap: 30px;
+            width: 345px;
+            height: 303px;
+            left: calc((100% - 345px) / 2);
+            top: 52px;
+
+            .title {
+                font-size: 22px;
+                line-height: 1.4;
+            }
+
+            .description {
+                width: 297px;
+                font-size: 14px;
+            }
+
+            .button {
+                width: 220px;
+                height: 50px;
+            }
+        }
+    }
+
+    .home-usp {
+        margin-bottom: 60px;
+        height: fit-content;
+
+        .usp-item {
+            box-shadow: 0px 4px 6.8px 0px rgba(0, 0, 0, 0.12);
+            background: #FCFCFC;
+
+            .item-mark {
+                height: 34px;
+
+                .icon {
+                    background-color: #FFDBE9;
+                    width: 34px;
+                    height: 34px;
+                }
+
+                .mark-content-1,
+                .mark-content-2,
+                .mark-content-3 {
+                    font-size: 14px;
+                }
+            }
+
+            .title {
+                font-size: 14px;
+            }
+
+            .description {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .home-content {
+        gap: 30px;
+        margin-bottom: 60px;
+
+        .bg-title {
+            background: #FFDBE9;
+            transform: rotate(-1deg);
+            z-index: 0;
+            left: 15px;
+            top: 7px;
+            width: 222px;
+            height: 15px;
+        }
+
+        .title {
+            font-size: 14px;
+            line-height: 1.2;
+            z-index: 1;
+        }
+
+        .items {
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            padding: 5px;
+
+            .item {
+                min-width: 248px;
+                max-width: 248px;
+                height: 374px;
+                box-shadow: 0px 4px 6.8px 0px rgba(0, 0, 0, 0.12);
+                backdrop-filter: blur(50px);
+                flex: 0 0 auto;
+
+                .item-image {
+                    width: 100%;
+                    height: 206px;
+                    object-fit: cover;
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                }
+
+                .item-details {
+                    width: 100%;
+                    height: 168px;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+
+                    .house-name {
+                        font-size: 18px;
+                    }
+
+                    .home-address {
+                        width: calc(100% + 15px);
+
+                        .text {
+                            padding-top: 2px;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .price-container {
+                        width: 100%;
+
+                        .house-price {
+                            font-size: 16px;
+                        }
+
+                        .price-info-icon {
+                            margin-top: -1px;
+                        }
+
+                        .home-price-info {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .info-container {
+                        width: 100%;
+
+                        .info-text {
+                            font-size: 12px;
+                        }
+
+                        .info-divider {
+                            width: 1px;
+                            height: 15px;
+                            padding-top: 1px;
+                            background-color: #D3D3D3;
+                        }
+                    }
+                }
+            }
+        }
+
+        .items::-webkit-scrollbar {
+            display: none;
+        }
+
+        .button {
+            width: 100%;
+            height: 50px;
+        }
+    }
+
+    .home-footer {
+        margin-bottom: 60px;
+
+        .left-content {
+            background-color: #F5F7F9;
+            border-radius: 20px;
+            border: 1px solid #D3D3D3;
+            padding: 30px 15px;
+            width: calc(100%);
+
+            .title {
+                font-size: 20px;
+                line-height: 1.2;
+            }
+
+            .description {
+                height: 100px;
+
+                .text {
+                    .phone-number-cover {
+                        top: 12px;
+                        right: -5px;
+                    }
+
+                    .phone-number-cover-text {
+                        top: 12px;
+                        right: -5px;
+                        width: 116px;
+                        height: 26px;
+                        font-size: 12px;
+                        padding-top: 6px;
+                    }
+
+                    .images {
+                        width: 95px;
+
+                        .image-1 {
+                            width: 50px;
+                            left: 45px;
+                        }
+
+                        .image-2 {
+                            width: 50px;
+                            left: 0px;
+                        }
+                    }
+                }
+            }
+
+            .home-link {
+                font-size: 16px;
+                line-height: 1.7;
+                text-decoration-color: #EA4C89 !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .home-content {
+        .bg-title {
+            left: 15px;
+            top: 10px;
+            width: 315px;
+            height: 18px;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home-header {
+        height: 645px;
+        margin-bottom: 40px;
+
+        .header-cover {
+            gap: 35px;
+            width: 703px;
+            height: 360px;
+            left: calc((100% - 703px) / 2);
+            top: 75.5px;
+
+            .title {
+                font-size: 50px;
+                line-height: 1.1;
+            }
+
+            .description {
+                width: 551px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .home-usp {
+        .usp-item {
+            .title {
+                font-size: 18px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .home-content {
+        .bg-title {
+            left: calc(50% - 235px);
+            top: 15px;
+            width: 470px;
+            height: 20px;
+        }
+
+        .title {
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        .items {
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 30px !important;
+
+            .item {
+                min-width: 100%;
+                max-width: 100%;
+                height: 417px;
+
+                .item-image {
+                    height: 240px;
+                }
+
+                .item-details {
+                    height: 177px;
+
+                    .house-name {
+                        font-size: 20px;
+                    }
+
+                    .home-address {
+                        width: calc(100% + 20px);
+                    }
+
+                    .price-container {
+                        width: calc(100% + 20px);
+
+                        .house-price {
+                            font-size: 14px;
+                        }
+
+                        .price-info-icon {
+                            margin-top: -2px;
+                        }
+
+                        .home-price-info {
+                            margin-top: -1px;
+                            font-size: 11px;
+                        }
+                    }
+
+                    .info-container {
+                        width: calc(100% + 20px);
+
+                        .info-text {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .button {
+            width: 220px;
+        }
+    }
+
+    .home-footer {
+        .left-content {
+            background-color: #F5F7F9;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-top: 1px solid #D3D3D3;
+            border-left: 1px solid #D3D3D3;
+            border-bottom: 1px solid #D3D3D3;
+            border-right: none;
+            padding: 40px 20px;
+            width: calc(50%);
+
+            .title {
+                font-size: 24px;
+                line-height: 1.1;
+            }
+
+            .home-link {
+                font-size: 17px;
+                line-height: 1.7;
+            }
+        }
+
+        .right-image {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top: 1px solid #D3D3D3;
+            border-right: 1px solid #D3D3D3;
+            border-bottom: 1px solid #D3D3D3;
+            width: calc(50%);
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home-header {
+        .header-cover {
+            width: 823px;
+            left: calc((100% - 823px) / 2);
+        }
+    }
+
+    .home-usp {
+        .usp-item {
+            .item-mark {
+
+                .mark-content-1,
+                .mark-content-3 {
+                    font-size: 16px;
+                }
+
+                .mark-content-2 {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .home-content {
+        .items {
+            .item {
+                .item-details {
+                    .price-container {
+                        width: 100%;
+
+                        .house-price {
+                            font-size: 18px;
+                        }
+
+                        .price-info-icon {
+                            margin-top: 0px;
+                        }
+
+                        .home-price-info {
+                            margin-top: 0px;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .info-container {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .home-footer {
+        .left-content {
+            padding: 40px 30px;
+
+            .description {
+                .text {
+                    max-width: 230px;
+
+                    .phone-number-cover,
+                    .phone-number-cover-text {
+                        top: 3px;
+                        right: -5px;
+                    }
+                }
+
+                .lg-images {
+                    width: 145px;
+
+                    .lg-image-1 {
+                        width: 80px;
+                        left: 65px;
+                        top: 10px
+                    }
+
+                    .lg-image-2 {
+                        width: 80px;
+                        left: 0px;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .home-header {
+        .header-cover {
+            width: 1109px;
+            height: 319px;
+            left: calc((100% - 1109px) / 2);
+            top: 96px;
+
+            .title {
+                font-size: 56px;
+            }
+        }
+    }
+
+    .home-usp {
+        margin-bottom: 110px;
+
+        .usp-item {
+            .item-mark {
+                .mark-content-2 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .home-content {
+        gap: 50px;
+        margin-bottom: 110px;
+
+        .items {
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 50px !important;
+
+            .item {
+                .item-details {
+                    .home-address {
+                        .text {
+                            padding-top: 3px;
+                            font-size: 12px;
+                        }
+                    }
+
+                    .price-container {
+                        .house-price {
+                            font-size: 16px;
+                        }
+
+                        .price-info-icon {
+                            margin-top: -1px;
+                        }
+
+                        .home-price-info {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home-footer {
+        margin-bottom: 110px;
+
+        .left-content {
+            padding: 70px 60px;
+
+            .title {
+                font-size: 30px;
+                line-height: 1.1;
+            }
+
+            .description {
+                height: 80px;
+
+                .text {
+                    max-width: 303px;
+                }
+
+                .lg-images {
+                    .lg-image-1 {
+                        top: 0px;
+                    }
+
+                    .lg-image-2 {
+                        top: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home-content {
+        .items {
+            .item {
+                .item-details {
+                    .home-address {
+                        .text {
+                            padding-top: 2px;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .price-container {
+                        .house-price {
+                            font-size: 18px;
+                        }
+
+                        .home-price-info {
+                            margin-top: -1px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home-footer {
+        .left-content {
+            .description {
+                .text {
+                    max-width: 354px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1460px) {
+    .home-usp,
+    .home-content,
+    .home-footer {
+        max-width: 1440px;
+    }
+}

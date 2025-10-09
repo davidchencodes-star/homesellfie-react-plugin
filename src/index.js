@@ -15,16 +15,6 @@ import JetzAnmelden from "./components/JetztAnmelden/JetztAnmelden";
 import Objektunterlagen from "./components/Objektunterlagen/Objektunterlagen";
 import { ObjektunterlagenContextProvider } from "./context/ObjektunterlagenContext";
 import GeboteAnsehenMeldung from "./components/GeboteAnsehenMeldung/GeboteAnsehenMeldung";
-import FirstScreen from "./components/Screen/FirstScreen";
-import ThirdScreen from "./components/Screen/ThirdScreen";
-import FourthScreen from "./components/Screen/FourthScreen";
-import FifthScreen from "./components/Screen/FifthScreen";
-import FirstSticky from "./components/Sticky/FirstSticky";
-import SecondSticky from "./components/Sticky/SecondSticky";
-import SecondScreen from "./components/Screen/SecondScreen";
-import ThirdSection from "./components/Section/ThirdSection";
-import SecondSection from "./components/Section/SecondSection";
-import FirstSection from "./components/Section/FirstSection";
 import TOTAL from "./components/Total";
 import { TotalContextProvider } from "./context/TotalContext";
 import MobileBottomBar from "./components/MobileBottomBar";
@@ -34,6 +24,9 @@ import FullScreen3DTour from "./components/Modal/FullScreen3DTour";
 import AngebotMobileModal from "./components/Modal/AngebotMobileModal";
 import Price from "./components/Price/Price";
 import KontaktiereUnsModal from "./components/Price/Modal/Kontaktiere-uns";
+
+import "./components/Home/index.css";
+import Home from "./components/Home";
 
 if (document.getElementById("we-total")) {
 	//check if element exists before rendering
@@ -166,5 +159,12 @@ if (document.getElementById("we-kontaktiere-uns-modal")) {
 	render(
 		<KontaktiereUnsModal />,
 		document.getElementById("we-kontaktiere-uns-modal")
+	);
+}
+
+if (document.getElementById("we-home")) {
+	render(
+		<Home />,
+		document.getElementById("we-home")
 	);
 }
