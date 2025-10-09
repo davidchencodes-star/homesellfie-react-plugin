@@ -1,0 +1,17 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--we-primary);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
+.button--dark {
+    background-color: var(--we-dark);
+}
+
+.button:disabled{
+    cursor: not-allowed;
+}

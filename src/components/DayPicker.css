@@ -1,0 +1,95 @@
+:root{
+    --rdp-cell-size: 35px !important;
+  --rdp-accent-color: var(--we-primary) !important;
+}
+
+.rdp{
+    margin: 0 !important;
+    border: solid 1px rgba(0,0,0,.1)!important;
+    padding: 15px!important;
+    border-radius: 15px!important;
+}
+
+.rdp-caption_label{
+    border:none !important;
+    padding: 0 0 10px 0 !important;
+}
+
+.rdp-months{
+    overflow-x: auto;
+}
+
+.rdp-table{
+    border-spacing: 0px !important;
+    border-radius: 5px !important;
+    border-collapse: separate !important;
+    width: 100%;
+}
+
+.rdp-day{
+    border:solid 1px var(--primary);
+}
+
+.rdp-day_selected{
+    background-color: #fff;
+    color:#000;
+    border: 1px solid var(--we-primary);
+}
+
+.rdp-button.rdp-day_selected:hover, .rdp-button.rdp-day_selected:focus{
+    background-color:var(--we-primary) !important;
+    color:#fff !important;
+}
+
+.entry-content tr td{
+    border:none !important;
+    padding: 6px 10px;
+}
+
+.rdp-head_cell, .rdp-cell{
+    padding-top:6px !important;
+}
+
+.rdp-button:active, .rdp-button:focus, .rdp-button:hover{
+    background-color: #ea4c8918 !important;
+}
+
+.rdp-button:focus{
+    border: 1px solid var(--we-primary) !important;
+}
+
+@media(min-width:450px){
+    .rdp-head_cell, .rdp-cell:not(:last-child){
+        padding-right: 10px !important;
+    }
+}
+
+@media(min-width:550px){
+    .rdp-head_cell, .rdp-cell:not(:last-child){
+        padding-right: 20px !important;
+    }
+}
+
+@media(min-width:650px){
+    .rdp-head_cell, .rdp-cell:not(:last-child){
+        padding-right: 30px !important;
+    }
+}
+
+@media(min-width:750px){
+    .rdp-head_cell, .rdp-cell{
+        /*padding-right: 40px;*/
+    }
+}
+
+@media(min-width:820px){
+    .rdp-head_cell, .rdp-cell{
+        /* padding-right: 50px; */
+    }
+}
+
+@media(min-width:1200px){
+    .rdp-head_cell, .rdp-cell{
+        /* padding-right: 20px; */
+    }
+}

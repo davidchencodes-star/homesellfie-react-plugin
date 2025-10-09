@@ -1,0 +1,11 @@
+.wrapper{}
+
+.headline{
+	font-size: 26px;
+	font-weight: 600;
+	color: var(--we-primary);
+}
+
+.message{
+	
+}

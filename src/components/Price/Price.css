@@ -1,0 +1,737 @@
+.bg-f4 {
+    background-color: #F4F4F4;
+}
+
+.bg-f5 {
+    background-color: #F5F5F5;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.svg-card {
+    width: 34px;
+    height: 34px;
+    background-color: #FFDBE9;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.plan-card-disable, .plan-card-enable {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.hover-secondary:hover {
+    color: #EA4C89 !important;
+}
+
+.et_pb_row_0 {
+    width: 100% !important;
+    max-width: 1440px !important;
+    padding-bottom: 0px !important;
+}
+
+.et_pb_section_0 {
+    padding-bottom: 0px !important;
+    width: 100% !important;
+}
+
+.bg-light-pink {
+    background: #FFEEEF;
+}
+
+.et_pb_section_0.et_pb_section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+@media screen and (min-width: 0px) {
+    #we-price {
+        margin-top: -10px !important;        
+    }
+
+    .price-header-container {
+        margin-left: -10px;
+        width: calc(100% + 20px) !important;
+    }
+
+    .price-header {
+        width: 100% !important;
+    }
+
+    .header-content {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+    }
+
+    .header-img {
+        height: 260px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .kontaktiere-uns {
+        width: 100%;
+    }
+
+    .dekra-brand {
+        top: 0px;
+        right: 15px;
+        width: 53px;
+    }
+
+    .description-title {
+        text-align: start;
+    }
+
+    .description-list {
+        width: 150px !important;
+        min-width: 150px !important;
+        height: 879px;
+    }
+
+    .description-header {
+        height: 75px;
+        align-items: unset;
+        justify-content: center;
+    }
+
+    .description-item-1 {
+        height: 39px;
+    }
+
+    .description-item-2 {
+        height: 75px;
+    }
+
+    .description-item-3 {
+        height: 75px;
+    }
+
+    .description-item-4 {
+        height: 129px;
+    }
+
+    .description-item-5 {
+        height: 57px;
+    }
+
+    .description-item-6 {
+        height: 129px;
+    }
+
+    .description-item-7 {
+        height: 57px;
+    }
+
+    .description-item-8 {
+        height: 75px;
+    }
+
+    .description-item-9 {
+        height: 75px;
+    }
+
+    .description-item-10 {
+        height: 93px;
+    }
+
+    .check {
+        justify-content: center;
+    }
+
+    .description-header-first-line {
+        justify-content: center;
+    }
+
+    .price-bottom {
+        margin-left: 0px;
+    }
+
+    .mehr-infos-container {
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .mehr-infos {
+        width: 100%;
+    }
+
+    .subtitle-font {
+        font-size: 12px !important;
+    }
+
+    .kontaktiere-uns-modal {
+        width: 100vw !important;
+    }
+
+    .kontaktiere-uns-button {
+        background-color: #EA4C89 !important;
+        color: white !important;
+        border-radius: 5px !important; 
+    }
+
+    .kontaktiere-uns-user-1 {
+        top: 10px !important;
+        right: 45px !important;
+        width: 45px !important;
+    }
+
+    .kontaktiere-uns-user-2 {
+        top: 10px !important;
+        right: 10px !important;
+        width: 45px !important;
+    }
+
+    .plan-card-disable:hover {
+        border: none;
+    }
+
+    .plan-card-enable:hover {
+        border: 1px solid #EA4C89;
+    }
+
+    .plan-card-border {
+        border: 1px solid #EA4C89;
+    }
+
+    .bg-header-title {
+        top: 35px;
+        left: -2px;
+        width: 178px;
+        height: 18px;
+        background: #FFDBE9;
+        z-index: 0;
+        transform: rotate(-1deg);
+    }
+
+    .plan-type-text {
+        color: #EA4C89 !important;
+    }
+
+    .header-title-text {
+        font-size: 20px !important;
+    }
+
+    .content-title-text {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .description-list {
+        width: 165px !important;
+        min-width: 165px !important;
+        height: 1029px;
+    }
+
+    .subtitle-font { 
+        font-size: 13px !important;
+    }
+
+    .description-item-1 {
+        height: 75px;
+    }
+
+    .description-item-2 {
+        height: 129px;
+    }
+
+    .description-item-3 {
+        height: 57px;
+    }
+
+    .description-item-4 {
+        height: 75px;
+    }
+
+    .description-item-5 {
+        height: 75px;
+    }
+
+    .description-item-6 {
+        height: 75px;
+    }
+
+    .description-item-7 {
+        height: 57px;
+    }
+
+    .description-item-8 {
+        height: 75px;
+    }
+
+    .description-item-9 {
+        height: 129px;
+    }
+
+    .description-item-10 {
+        height: 57px;
+    }
+
+    .description-item-11 {
+        height: 93px;
+    }
+
+    .description-item-12 {
+        height: 57px;
+    }
+}
+
+@media screen and (min-width: 464px) {
+    .kontaktiere-uns-modal {
+        width: 464px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #we-price {
+        margin-top: 0px !important;        
+    }
+
+    .price-header-container {
+        margin-left: 0px;
+        width: 100% !important;
+    }
+
+    .price-header {
+        width: 50% !important;
+    }
+
+    .header-content {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-left: 1px solid #D3D3D3;
+        border-top: 1px solid #D3D3D3;
+        border-bottom: 1px solid #D3D3D3;
+        border-right: none;
+    }
+
+    .header-img {
+        height: 328px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .price-card {
+        height: 177px;
+    }
+
+    .dekra-brand {
+        top: 0px;
+        right: 40px;
+        width: 65px;
+    }
+
+    .description-title {
+        text-align: center;
+    }
+
+    .description-list {
+        width: 354px !important;
+        min-width: 354px !important;
+        height: 768px;
+    }
+
+    .description-header {
+        height: 54px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description-subtitle {
+        border-left: 1px solid #D3D3D3;
+    }
+
+    .description-item-1 {
+        height: 58px;
+    }
+
+    .description-item-2 {
+        height: 58px;
+    }
+
+    .description-item-3 {
+        height: 58px;
+    }
+
+    .description-item-4 {
+        height: 58px;
+    }
+
+    .description-item-5 {
+        height: 58px;
+    }
+
+    .description-item-6 {
+        height: 58px;
+    }
+
+    .description-item-7 {
+        height: 58px;
+    }
+
+    .description-item-8 {
+        height: 58px;
+    }
+
+    .description-item-9 {
+        height: 76px;
+    }
+
+    .description-item-10 {
+        height: 58px;
+    }
+
+    .description-item-11 {
+        height: 58px;
+    }
+
+    .description-item-12 {
+        height: 58px;
+    }
+
+    .mehr-infos {
+        width: 310px;
+    }
+
+    .subtitle-font { 
+        font-size: 15px !important;
+    }
+
+    .kontaktiere-uns-button {
+        background-color: transparent !important;
+        color: #19202E !important;
+        border: solid 1px #EA4C89 !important;
+        border-radius: 5px !important;
+    }
+
+    .kontaktiere-uns-button:hover {
+        background-color: #EA4C89 !important;
+        color: white !important;
+    }
+
+    .kontaktiere-uns-user-1 {
+        top: 15px !important;
+        right: 55px !important;
+        width: 50px !important;
+    }
+
+    .kontaktiere-uns-user-2 {
+        top: 15px !important;
+        right: 15px !important;
+        width: 50px !important;
+    }
+
+    .bg-header-title {
+        top: 30px;
+        left: -2px;
+        width: 178px;
+        height: 25px;
+        background: #FFDBE9;
+        z-index: 0;
+        transform: rotate(-1deg);
+    }
+
+    .content-title-text {
+        font-size: 24px !important;
+    }
+
+    .bg-content-title {
+        background: #FFDBE9;
+        transform: rotate(-1deg);
+        left: calc((100% - 530px) / 2 + 327px);
+        top: 5px;
+        width: 205px;
+        height: 25px;
+        z-index: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .kontaktiere-uns {
+        width: 394px;
+    }
+
+    .price-card {
+        height: 234px;
+    }
+
+    .dekra-brand {
+        top: 0px;
+        right: 20px;
+        width: 45px;
+    }
+
+    .description-list {
+        width: 414px !important;
+        min-width: 414px !important;
+        height: 763px;
+    }
+
+    .description-header {
+        height: 55px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description-item-1 {
+        height: 59px;
+    }
+
+    .description-item-2 {
+        height: 59px;
+    }
+
+    .description-item-3 {
+        height: 59px;
+    }
+
+    .description-item-4 {
+        height: 59px;
+    }
+
+    .description-item-5 {
+        height: 59px;
+    }
+
+    .description-item-6 {
+        height: 59px;
+    }
+
+    .description-item-7 {
+        height: 59px;
+    }
+
+    .description-item-8 {
+        height: 59px;
+    }
+
+    .description-item-9 {
+        height: 59px;
+    }
+
+    .description-item-10 {
+        height: 59px;
+    }
+
+    .description-item-11 {
+        height: 59px;
+    }
+
+    .description-item-12 {
+        height: 59px;
+    }
+
+    .bg-header-title {
+        top: 33px;
+        left: -2px;
+        width: 178px;
+        height: 20px;
+        background: #FFDBE9;
+        z-index: 0;
+        transform: rotate(-1deg);
+    }
+
+    .bg-content-title {
+        background: #FFDBE9;
+        transform: rotate(-1deg);
+        left: calc((100% - 530px) / 2 + 327px);
+        top: 10px;
+        width: 205px;
+        height: 20px;
+        z-index: 0;
+    }
+}
+
+@media screen and (min-width: 1188px) {
+    .price-card {
+        height: 219px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .price-section {
+        max-width: 1280px !important;
+    }
+
+    .kontaktiere-uns {
+        width: 310px;
+    }
+
+    .price-card {
+        height: 255px;
+    }
+
+    .dekra-brand {
+        top: 0px;
+        right: 30px;
+        width: 65px;
+    }
+
+    .description-list {
+        width: 530px !important;
+        min-width: 530px !important;
+        height: 802px;
+    }
+
+    .description-header {
+        height: 94px;
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    .description-subtitle {
+        border-left: none;
+    }
+
+    .description-item-1 {
+        height: 59px;
+    }
+
+    .description-item-2 {
+        height: 59px;
+    }
+
+    .description-item-3 {
+        height: 59px;
+    }
+
+    .description-item-4 {
+        height: 59px;
+    }
+
+    .description-item-5 {
+        height: 59px;
+    }
+
+    .description-item-6 {
+        height: 59px;
+    }
+
+    .description-item-7 {
+        height: 59px;
+    }
+
+    .description-item-8 {
+        height: 59px;
+    }
+
+    .description-item-9 {
+        height: 59px;
+    }
+
+    .description-item-10 {
+        height: 59px;
+    }
+
+    .description-item-11 {
+        height: 59px;
+    }
+
+    .description-item-12 {
+        height: 59px;
+    }
+
+    .check {
+        justify-content: unset;
+    }
+
+    .description-header-first-line {
+        justify-content: unset;
+    }
+
+    .price-bottom {
+        margin-left: 530px;
+    }
+
+    .mehr-infos-container {
+        justify-content: unset;
+        margin-left: 777px;
+    }
+
+    .mehr-infos {
+        width: 255px;
+    }
+
+    .subtitle-font { 
+        font-size: 16px !important;
+    }
+
+    .plan-card-disable:hover {
+        border: 2px solid #EA4C89;
+    }
+
+    .plan-card-enable:hover {
+        border: 2px solid #EA4C89;
+    }
+
+    .plan-card-border {
+        border: 2px solid #EA4C89;
+    }
+
+    .bg-header-title {
+        top: 50px;
+        left: -2px;
+        width: 262px;
+        height: 20px;
+        background: #FFDBE9;
+        z-index: 0;
+        transform: rotate(-1deg);
+    }
+    
+    .plan-type-text {
+        color: #868686 !important;
+    }
+
+    .plan-container:hover {
+        background-color: #FFEEEF !important;
+    }
+
+    .header-title-text {
+        font-size: 30px !important;
+    }
+
+    .content-title-text {
+        font-size: 30px !important;
+    }
+
+    .bg-content-title {
+        background: #FFDBE9;
+        transform: rotate(-1deg);
+        left: calc((100% - 663px) / 2 + 410px);
+        top: 15px;;
+        top: 15px;
+        width: 255px;
+        height: 20px;
+        z-index: 0;
+    }
+}
+
+@media screen and (min-width: 1291px){
+    .price-card {
+        height: 245px;
+    }
+}
+
+@media screen and (min-width: 1460px) {
+    .mehr-infos-container {
+        justify-content: unset;
+        margin-left: 857px;
+    }
+
+    .price-section {
+        max-width: 1440px !important;
+    }
+}
