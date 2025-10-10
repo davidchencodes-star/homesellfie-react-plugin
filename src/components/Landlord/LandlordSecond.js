@@ -13,14 +13,14 @@ const LandlordSecond = () => {
                 <div className="sticky-top sticky d-none d-md-block">
                     <div className="position-relative">
                         <img src={MovieAlt} className="image" />
-                        <PlayIcon className="sticky-play position-absolute" />
+                        <PlayIcon className="sticky-play position-absolute cursor-pointer" />
                     </div>
                 </div>
 
                 <div className="d-flex flex-column gap-15">
                     <div className="position-relative d-block d-md-none">
                         <img src={MovieAlt} className="mobile-image" />
-                        <PlayIcon className="mobile-play position-absolute" />
+                        <PlayIcon className="mobile-play position-absolute cursor-pointer" />
                     </div>
 
                     <div className="d-flex flex-column gap-10 gap-xl-12 content">
@@ -32,13 +32,13 @@ const LandlordSecond = () => {
                                 </p>
                                 <p className="text-light fw-normal lh-lg item-description">
                                     <span className="text-primary position-relative">
-                                        Hinterlassen Sie eine Anfrage
-                                        <svg className="position-absolute d-none d-md-block" style="left: 0px; top: 22px;"
+                                        Hinterlassen Sie eine Anfrage{' '}
+                                        <svg className="position-absolute d-none d-md-block" style={{ left: 0, top: 22 }}
                                             width="221" height="1" viewBox="0 0 221 1" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <rect width="221" height="1" fill="#EA4C89" />
                                         </svg>
-                                        <svg className="position-absolute d-block d-md-none" style="left: 0px; top: 20px;"
+                                        <svg className="position-absolute d-block d-md-none" style={{ left: 0, top: 20 }}
                                             width="194" height="1" viewBox="0 0 194 1" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <rect width="194" height="1" fill="#EA4C89" />
