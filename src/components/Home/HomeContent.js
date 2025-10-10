@@ -11,9 +11,9 @@ const HomeContent = () => {
             .catch(err => console.error(err));
     }, []);
 
-    const defaultClassName = "d-flex flex-column gap-0 rounded position-relative item";
-    const mdClassName = "d-none d-md-flex flex-column gap-0 rounded position-relative item";
-    const xlClassName = "d-none d-xl-flex flex-column gap-0 rounded position-relative item";
+    const defaultLinkClassName = "d-block";
+    const mdLinkClassName = "d-none d-md-block"
+    const xlLinkClassName = "d-none d-xl-block"
 
     return (
         <div className="d-flex flex-column px-8 px-md-9 px-lg-15 px-xl-12 mx-auto position-relative home-content">
@@ -22,51 +22,56 @@ const HomeContent = () => {
 
             <div className="d-flex d-md-grid gap-8 gap-xl-9 items">
                 {estates.map((estate, index) => (
-                    <div className={index < 4 ? defaultClassName : (index < 6 ? mdClassName : xlClassName)}>
-                        <div className="position-absolute p-3 lh-base" style={{ width: 34, height: 34, top: 20, right: 20, borderRadius: "50%", backgroundColor: "#F5F5F5" }}>
-                            <HeartUnfillIcon />
-                        </div>
-                        <img className="item-image" src={estate?.titelbild?.src ?? ''} alt={estate?.titelbild?.alt ?? ''} />
-
-                        <div className="item-details d-flex flex-column gap-9 gap-md-15 p-8 p-md-9">
-                            <div className="d-flex flex-column gap-5">
-                                <p className="text-primary fw-bold lh-lg house-name">{estate?.objektTyp ?? ''}</p>
-                                <div className="d-flex gap-4 align-items-center home-address">
-                                    <MapMarkerIcon />
-                                    <div>
-                                        <p className="text-light fw-normal lh-base text">
-                                            {estate?.adresse?.stadt ?? ''}{' '}
-                                            {estate?.adresse?.plz ?? ''}{', '}
-                                        </p>
-                                        <p className="text-light fw-normal lh-base text">
-                                            {estate?.adresse?.strasse ?? ''}{' '}
-                                            {estate?.adresse?.nr ?? ''}{' '}
-                                        </p>
-                                    </div>
-                                </div>
+                    <a 
+                        href={`/alle-immobilien/${estate?.id ?? ''}`}
+                        className={index < 4 ? defaultLinkClassName : (index < 6 ? mdLinkClassName : xlLinkClassName)}
+                    >
+                        <div className="d-flex flex-column gap-0 rounded position-relative item">
+                            <div className="position-absolute p-3 lh-base" style={{ width: 34, height: 34, top: 20, right: 20, borderRadius: "50%", backgroundColor: "#F5F5F5" }}>
+                                <HeartUnfillIcon />
                             </div>
+                            <img className="item-image" src={estate?.titelbild?.src ?? ''} alt={estate?.titelbild?.alt ?? ''} />
 
-                            <div className="d-flex flex-column gap-8 gap-md-2 gap-lg-8">
-                                <div className="d-flex gap-8 price-container">
-                                    <p className="text-primary fw-semibold lh-base house-price">
-                                        {Math.floor(Number(estate?.verkaufspreis ?? 0)).toLocaleString().replaceAll(',', '.')} €
-                                    </p>
-                                    <div className="d-flex gap-2" style={{ paddingTop: 3 }}>
-                                        <DiscountCirclePinkSmallIcon className="price-info-icon" />
-                                        <p className="text-secondary fw-normal lh-base home-price-info">Keine Kommission</p>
+                            <div className="item-details d-flex flex-column gap-9 gap-md-15 p-8 p-md-9">
+                                <div className="d-flex flex-column gap-5">
+                                    <p className="text-primary fw-bold lh-lg house-name">{estate?.objektTyp ?? ''}</p>
+                                    <div className="d-flex gap-4 align-items-center home-address">
+                                        <MapMarkerIcon />
+                                        <div>
+                                            <p className="text-light fw-normal lh-base text">
+                                                {estate?.adresse?.stadt ?? ''}{' '}
+                                                {estate?.adresse?.plz ?? ''}{', '}
+                                            </p>
+                                            <p className="text-light fw-normal lh-base text">
+                                                {estate?.adresse?.strasse ?? ''}{' '}
+                                                {estate?.adresse?.nr ?? ''}{' '}
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="d-flex gap-3 info-container">
-                                    <p className="text-light fw-normal lh-lg lh-md-base info-text">{estate?.wohnflaeche ?? 0}m²</p>
-                                    <div className="info-divider"></div>
-                                    <p className="text-light fw-normal lh-lg lh-md-base info-text">{Math.floor(Number(estate?.zimmer ?? 0))} Zimmer</p>
-                                    <div className="info-divider"></div>
-                                    <p className="text-light fw-normal lh-lg lh-md-base info-text">{estate?.baujahr ?? '--'}</p>
+                                <div className="d-flex flex-column gap-8 gap-md-2 gap-lg-8">
+                                    <div className="d-flex gap-8 price-container">
+                                        <p className="text-primary fw-semibold lh-base house-price">
+                                            {Math.floor(Number(estate?.verkaufspreis ?? 0)).toLocaleString().replaceAll(',', '.')} €
+                                        </p>
+                                        <div className="d-flex gap-2" style={{ paddingTop: 3 }}>
+                                            <DiscountCirclePinkSmallIcon className="price-info-icon" />
+                                            <p className="text-secondary fw-normal lh-base home-price-info">Keine Kommission</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="d-flex gap-3 info-container">
+                                        <p className="text-light fw-normal lh-lg lh-md-base info-text">{estate?.wohnflaeche ?? 0}m²</p>
+                                        <div className="info-divider"></div>
+                                        <p className="text-light fw-normal lh-lg lh-md-base info-text">{Math.floor(Number(estate?.zimmer ?? 0))} Zimmer</p>
+                                        <div className="info-divider"></div>
+                                        <p className="text-light fw-normal lh-lg lh-md-base info-text">{estate?.baujahr ?? '--'}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 ))}
             </div>
 
