@@ -1,6 +1,6 @@
 import FooterAlt from "../../assets/home/footer-alt.jpg";
-import UserFirst from "../../assets/home/user-1.png";
-import UserSecond from "../../assets/home/user-2.png";
+import UserFirst from "../../assets/common/user-1.png";
+import UserSecond from "../../assets/common/user-2.png";
 import { PhoneCoverIcon } from "../../utils/svg";
 
 const HomeFooter = () => {

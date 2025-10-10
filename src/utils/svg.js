@@ -527,35 +527,86 @@ export const DiscountCircleBgPinkMediumIcon = (props) => (
 )
 
 export const AnalyticsBgPinkMediumIcon = (props) => (
-    <svg 
-        width="44" 
-        height="44" 
-        viewBox="0 0 44 44" 
-        fill="none" 
+    <svg
+        width="44"
+        height="44"
+        viewBox="0 0 44 44"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
         {...props}
     >
-        <rect 
-            width="44" 
-            height="44" 
-            rx="22" 
-            fill="#EA4C89" 
+        <rect
+            width="44"
+            height="44"
+            rx="22"
+            fill="#EA4C89"
         />
-        <path 
-            d="M12 12V29C12 30.66 13.34 32 15 32H32" 
-            stroke="#FDFDFD" 
+        <path
+            d="M12 12V29C12 30.66 13.34 32 15 32H32"
+            stroke="#FDFDFD"
             stroke-width="1.5"
-            stroke-miterlimit="10" 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
         />
         <path
             d="M15 27L19.59 21.64C20.35 20.76 21.7 20.7 22.52 21.53L23.47 22.48C24.29 23.3 25.64 23.25 26.4 22.37L31 17"
-            stroke="#FDFDFD" 
-            stroke-width="1.5" 
-            stroke-miterlimit="10" 
+            stroke="#FDFDFD"
+            stroke-width="1.5"
+            stroke-miterlimit="10"
             stroke-linecap="round"
-            stroke-linejoin="round" 
+            stroke-linejoin="round"
         />
+    </svg>
+)
+
+export const ChartIcon = (props) => (
+    <svg
+        width="21"
+        height="20"
+        viewBox="0 0 21 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <path
+            d="M2.16797 18.332H18.8346"
+            stroke="#292D32"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M8.625 3.33464V18.3346H12.375V3.33464C12.375 2.41797 12 1.66797 10.875 1.66797H10.125C9 1.66797 8.625 2.41797 8.625 3.33464Z"
+            stroke="#292D32"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M3 8.33464V18.3346H6.33333V8.33464C6.33333 7.41797 6 6.66797 5 6.66797H4.33333C3.33333 6.66797 3 7.41797 3 8.33464Z"
+            stroke="#292D32"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M14.668 12.4987V18.332H18.0013V12.4987C18.0013 11.582 17.668 10.832 16.668 10.832H16.0013C15.0013 10.832 14.668 11.582 14.668 12.4987Z"
+            stroke="#292D32"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+)
+
+export const AnalyticsIcon = (props) => (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M1.66406 1.66406V15.8307C1.66406 17.2141 2.78073 18.3307 4.16406 18.3307H18.3307"
+            stroke="#19202E" stroke-miterlimit="10" stroke-linecap="round"
+            stroke-linejoin="round" />
+        <path
+            d="M4.16406 14.1693L7.98906 9.70262C8.6224 8.96928 9.7474 8.91927 10.4307 9.61094L11.2224 10.4026C11.9057 11.0859 13.0307 11.0443 13.6641 10.3109L17.4974 5.83594"
+            stroke="#19202E" stroke-miterlimit="10" stroke-linecap="round"
+            stroke-linejoin="round" />
     </svg>
 )
