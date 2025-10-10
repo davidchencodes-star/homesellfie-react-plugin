@@ -148,9 +148,255 @@
             }
         }
     }
+
+    .ll-why-choose-us {
+        background-color: #F5F5F5;
+        width: 100%;
+        margin-top: -10px;
+
+        .real-container {
+            .left-container {
+                width: 100%;
+
+                .title {
+                    font-size: 20px;
+                    line-height: 1.2;
+                }
+
+                .content {
+                    gap: 24px;
+
+                    .icon {
+                        min-width: 44px;
+                        max-width: 44px;
+                    }
+
+                    .subtitle {
+                        font-size: 18px;
+                    }
+
+                    .description {
+                        font-size: 14px;
+                    }
+                }
+
+                .button {
+                    width: 100%;
+                    height: 52px;
+                }
+            }
+
+            .right-container {
+                width: 100%;
+                padding-bottom: 60px;
+
+                .item {
+                    background-color: #FCFCFC;
+                    border: 1px solid #D3D3D3;
+                    border-radius: 20px;
+
+                    .description {
+                        font-size: 14px;
+                    }
+
+                    .icon {
+                        background-color: #FFDBE9;
+                        width: 34px;
+                        height: 34px;
+                    }
+                }
+
+                .item-1 {
+                    height: 197px;
+                }
+
+                .item-2 {
+                    height: 187px;
+                }
+
+                .item-3 {
+                    height: 335px;
+
+                    .logo {
+                        height: 34px;
+                        top: 20px;
+                        left: 15px;
+                    }
+
+                    .container-1 {
+                        overflow: hidden;
+                        background-size: 100% auto;
+                        top: 111px;
+                        left: 15px;
+                        width: 135px;
+                        height: 224px;
+                    }
+
+                    .container-2 {
+                        overflow: hidden;
+                        background-size: 100% auto;
+                        top: 75px;
+                        left: calc(100% - 155px);
+                        width: 135px;
+                        height: 260px;
+                    }
+
+                    .image {
+                        margin: 8px;
+                        width: 119px;
+                        border-top-left-radius: 35px;
+                        border-top-right-radius: 35px;
+                    }
+                }
+            }
+        }
+    }
 }
 
-@media screen and (min-width: 375px) {}
+@media screen and (min-width: 375px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 15px;
+                        width: 150px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 170px);
+                        width: 150px;
+                    }
+
+                    .image {
+                        width: 134px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 30px;
+                        width: 170px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 200px);
+                        width: 170px;
+                    }
+
+                    .image {
+                        margin: 10px;
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 40px;
+                        width: 175px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 215px);
+                        width: 175px;
+                    }
+
+                    .image {
+                        width: 155px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 50px;
+                        width: 180px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 230px);
+                        width: 180px;
+                    }
+
+                    .image {
+                        width: 160px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 60px;
+                        width: 195px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 255px);
+                        width: 195px;
+                    }
+
+                    .image {
+                        width: 175px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 70px;
+                        width: 210px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 280px);
+                        width: 210px;
+                    }
+
+                    .image {
+                        width: 190px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media screen and (min-width: 768px) {
     .ll-header {
@@ -244,6 +490,111 @@
             }
         }
     }
+
+    .ll-why-choose-us {
+        .real-container {
+            .left-container {
+                .title {
+                    font-size: 30px;
+                }
+
+                .content {
+                    .subtitle {
+                        font-size: 20px;
+                    }
+
+                    .description {
+                        font-size: 16px;
+                    }
+                }
+
+                .button {
+                    width: 308px;
+                }
+            }
+
+            .right-container {
+                .item {
+                    .description {
+                        font-size: 16px;
+                    }
+                }
+
+                .item-1 {
+                    height: 213px;
+                }
+
+                .item-2 {
+                    height: 193px;
+                }
+
+                .item-3 {
+                    .logo {
+                        left: 20px;
+                    }
+
+                    .container-1 {
+                        overflow: hidden;
+                        background-size: 100% auto;
+                        top: 111px;
+                        left: 20px;
+                        width: 150px;
+                        height: 224px;
+                    }
+
+                    .container-2 {
+                        overflow: hidden;
+                        background-size: 100% auto;
+                        top: 75px;
+                        left: calc(100% - 170px);
+                        width: 150px;
+                        height: 260px;
+                    }
+
+                    .image {
+                        margin: 8px;
+                        width: 134px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 30px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 180px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 50px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 200px);
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -289,6 +640,61 @@
                 flex: 2;
                 min-width: calc(50vw - 50px);
                 max-width: calc(50vw - 50px);
+            }
+        }
+    }
+
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-1 {
+                    height: 193px;
+                }
+
+                .item-2 {
+                    height: 171px;
+                }
+
+                .item-3 {
+                    height: 368px;
+
+                    .container-1 {
+                        top: 75px;
+                        left: 20px;
+                        width: 198px;
+                        height: 295px;
+                    }
+
+                    .container-2 {
+                        top: 27px;
+                        left: calc(100% - 218px);
+                        width: 198px;
+                        height: 342px;
+                    }
+
+                    .image {
+                        margin: 11px;
+                        width: 176px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .ll-why-choose-us {
+        .real-container {
+            .right-container {
+                .item-3 {
+                    .container-1 {
+                        left: 45px;
+                    }
+
+                    .container-2 {
+                        left: calc(100% - 243px);
+                    }
+                }
             }
         }
     }
@@ -339,6 +745,71 @@
             }
         }
     }
+
+    .ll-why-choose-us {
+        margin-top: 0px;
+
+        .real-container {
+            .left-container {
+                max-width: 490px;
+
+                .title {
+                    font-size: 35px;
+                }
+
+                .content {
+                    .icon {
+                        min-width: 64px;
+                        max-width: 64px;
+                    }
+
+                    .subtitle {
+                        font-size: 24px;
+                    }
+                }
+
+                .button {
+                    width: 250px;
+                }
+            }
+
+            .right-container {
+                max-width: 624px;
+                padding-bottom: 110px;
+
+                .item-1 {
+                    height: 226px;
+                }
+
+                .item-2 {
+                    height: 226px;
+                }
+
+                .item-3 {
+                    height: 435px;
+
+                    .container-1 {
+                        top: 81px;
+                        left: 45px;
+                        width: 240px;
+                        height: 358px;
+                    }
+
+                    .container-2 {
+                        top: 23px;
+                        left: 341px;
+                        width: 240px;
+                        height: 416px;
+                    }
+
+                    .image {
+                        margin: 13px;
+                        width: 214px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -355,10 +826,43 @@
             }
         }
     }
+
+    .ll-why-choose-us {
+        .real-container {
+            .left-container {
+                max-width: 585px;
+
+                .title {
+                    font-size: 44px;
+                    line-height: 52px;
+                }
+            }
+
+            .right-container {
+                max-width: 649px;
+
+                .item-3 {
+                    .container-1 {
+                        left: 57px;
+                    }
+
+                    .container-2 {
+                        left: 353px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1460px) {
     .ll-second {
         max-width: 1440px;
+    }
+
+    .ll-why-choose-us {
+        .real-container {
+            max-width: 1440px;
+        }
     }
 }

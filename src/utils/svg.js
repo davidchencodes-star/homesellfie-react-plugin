@@ -320,10 +320,10 @@ export const HomeIcon = (props) => (
 )
 
 export const PlayIcon = (props) => (
-    <svg 
-        width="50" 
-        height="50" 
-        viewBox="0 0 50 50" 
+    <svg
+        width="50"
+        height="50"
+        viewBox="0 0 50 50"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         {...props}
@@ -331,7 +331,231 @@ export const PlayIcon = (props) => (
         <circle cx="25" cy="25" r="25" fill="#FCFCFC" />
         <path
             d="M32.9706 24.2076C33.4906 24.6079 33.4906 25.3921 32.9706 25.7924L22.11 34.1529C21.4524 34.6591 20.5 34.1904 20.5 33.3605V16.6395C20.5 15.8096 21.4524 15.3409 22.11 15.8471L32.9706 24.2076Z"
-            fill="#EA4C89" 
+            fill="#EA4C89"
         />
     </svg>
-) 
+)
+
+export const DekraSertificateBgPinkLargeIcon = (props) => (
+    <svg
+        width="64"
+        height="64"
+        viewBox="0 0 64 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <rect
+            width="64"
+            height="64"
+            rx="32"
+            fill="#EA4C89"
+        />
+        <path
+            d="M30.4902 22.2286L25.5002 24.1086C24.3502 24.5386 23.4102 25.8986 23.4102 27.1186V34.5486C23.4102 35.7286 24.1902 37.2786 25.1402 37.9886L29.4402 41.1986C30.8502 42.2586 33.1702 42.2586 34.5802 41.1986L38.8802 37.9886C39.8302 37.2786 40.6102 35.7286 40.6102 34.5486V27.1186C40.6102 25.8886 39.6702 24.5286 38.5202 24.0986L33.5302 22.2286C32.6802 21.9186 31.3202 21.9186 30.4902 22.2286Z"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M29.0508 31.8697L30.6608 33.4797L34.9608 29.1797"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+)
+
+export const DiscountCircleBgPinkLargeIcon = (props) => (
+    <svg
+        width="64"
+        height="64"
+        viewBox="0 0 64 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <rect
+            width="64"
+            height="64"
+            rx="32"
+            fill="#EA4C89"
+        />
+        <path
+            d="M32 42C37.5228 42 42 37.5228 42 32C42 26.4772 37.5228 22 32 22C26.4772 22 22 26.4772 22 32C22 37.5228 26.4772 42 32 42Z"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M29 35L35 29"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M34.4922 34.5H34.5012"
+            stroke="#FCFCFC"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M29.4883 29.5H29.4983"
+            stroke="#FCFCFC"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+)
+
+export const AnalyticsBgPinkLargeIcon = (props) => (
+    <svg
+        width="64"
+        height="64"
+        viewBox="0 0 64 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <rect
+            width="64"
+            height="64"
+            rx="32"
+            fill="#EA4C89"
+        />
+        <path
+            d="M22 22V39C22 40.66 23.34 42 25 42H42"
+            stroke="#FDFDFD"
+            stroke-width="1.5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M25 37L29.59 31.64C30.35 30.76 31.7 30.7 32.52 31.53L33.47 32.48C34.29 33.3 35.64 33.25 36.4 32.37L41 27"
+            stroke="#FDFDFD"
+            stroke-width="1.5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+)
+
+export const DekraSertificateBgPinkMediumIcon = (props) => (
+    <svg
+        width="44"
+        height="44"
+        viewBox="0 0 44 44"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <rect
+            width="44"
+            height="44"
+            rx="22"
+            fill="#EA4C89"
+        />
+        <path
+            d="M20.4902 12.2286L15.5002 14.1086C14.3502 14.5386 13.4102 15.8986 13.4102 17.1186V24.5486C13.4102 25.7286 14.1902 27.2786 15.1402 27.9886L19.4402 31.1986C20.8502 32.2586 23.1702 32.2586 24.5802 31.1986L28.8802 27.9886C29.8302 27.2786 30.6102 25.7286 30.6102 24.5486V17.1186C30.6102 15.8886 29.6702 14.5286 28.5202 14.0986L23.5302 12.2286C22.6802 11.9186 21.3202 11.9186 20.4902 12.2286Z"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M19.0508 21.8697L20.6608 23.4797L24.9608 19.1797"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+)
+
+export const DiscountCircleBgPinkMediumIcon = (props) => (
+    <svg
+        width="44"
+        height="44"
+        viewBox="0 0 44 44"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <rect
+            width="44"
+            height="44"
+            rx="22"
+            fill="#EA4C89"
+        />
+        <path
+            d="M22 32C27.5228 32 32 27.5228 32 22C32 16.4772 27.5228 12 22 12C16.4772 12 12 16.4772 12 22C12 27.5228 16.4772 32 22 32Z"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M19 25L25 19"
+            stroke="#FCFCFC"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M24.4922 24.5H24.5012"
+            stroke="#FCFCFC"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+        <path
+            d="M19.4883 19.5H19.4983"
+            stroke="#FCFCFC"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+)
+
+export const AnalyticsBgPinkMediumIcon = (props) => (
+    <svg 
+        width="44" 
+        height="44" 
+        viewBox="0 0 44 44" 
+        fill="none" 
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <rect 
+            width="44" 
+            height="44" 
+            rx="22" 
+            fill="#EA4C89" 
+        />
+        <path 
+            d="M12 12V29C12 30.66 13.34 32 15 32H32" 
+            stroke="#FDFDFD" 
+            stroke-width="1.5"
+            stroke-miterlimit="10" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+        />
+        <path
+            d="M15 27L19.59 21.64C20.35 20.76 21.7 20.7 22.52 21.53L23.47 22.48C24.29 23.3 25.64 23.25 26.4 22.37L31 17"
+            stroke="#FDFDFD" 
+            stroke-width="1.5" 
+            stroke-miterlimit="10" 
+            stroke-linecap="round"
+            stroke-linejoin="round" 
+        />
+    </svg>
+)
