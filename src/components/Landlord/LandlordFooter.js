@@ -54,10 +54,16 @@ const LandlordFooter = () => {
                 </div>
 
                 <div className="d-flex gap-9">
-                    <div className="d-flex gap-4 py-8 button rounded-1 cursor-pointer button-left justify-content-center text-center d-none d-md-block">
+                    <div 
+                        className="d-flex gap-4 py-8 button rounded-1 cursor-pointer button-left justify-content-center text-center d-none d-md-block"
+                        onClick={() => { window.renderKontaktformular(true) }}
+                    >
                         <h4 className="text-primary fw-normal lh-base">Оставить заявку</h4>
                     </div>
-                    <div className="d-flex gap-4 py-8 button rounded-1 cursor-pointer bg-secondary justify-content-center">
+                    <div 
+                        className="d-flex gap-4 py-8 button rounded-1 cursor-pointer bg-secondary justify-content-center"
+                        onClick={() => { window.renderKontaktformular(true) }}
+                    >
                         <WhitePhoneIcon />
                         <h4 className="text-white fw-normal lh-base d-none d-md-block">
                             Kontaktiere uns

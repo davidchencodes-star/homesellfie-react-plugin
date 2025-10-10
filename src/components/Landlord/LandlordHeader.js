@@ -11,7 +11,10 @@ const LandlordHeader = () => {
                     Комплексная услуга по продаже вашей недвижимости без брокерской комиссии
                 </p>
 
-                <div className="d-flex gap-4 rounded-1 py-8 mx-auto align-items-center justify-content-center bg-secondary cursor-pointer button">
+                <div 
+                    className="d-flex gap-4 rounded-1 py-8 mx-auto align-items-center justify-content-center bg-secondary cursor-pointer button"
+                    onClick={() => { window.renderKontaktformular(true) }}
+                >
                     <WhitePhoneIcon />
                     <p className="fw-normal lh-base" style={{ fontSize: 16 }}>Связаться с нами</p>
                 </div>
