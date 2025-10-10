@@ -21,7 +21,10 @@ const HomeFooter = () => {
                         <div className="d-flex justify-content-between">
                             <div className="position-relative w-fit-content">
                                 <p className="text-primary fw-normal lh-lg pt-7 pb-7 pt-lg-1 pb-lg-0" style={{ fontSize: 16 }}>
-                                    Tel: +490160 7855511
+                                    Tel:{" "}
+                                    <a href="tel:+4901607855511" className="text-primary text-decoration-none">
+                                        +490160 7855511
+                                    </a>
                                 </p>
                                 <PhoneCoverIcon 
                                     className="position-absolute phone-number-cover" 
