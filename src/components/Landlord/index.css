@@ -1039,4 +1039,9 @@
             max-width: 1440px;
         }
     }
+
+    #we-landlord {
+        margin-left: calc((100% - 100vw) / 2 + 10px);
+        width: calc(100vw - 20px);
+    }
 }
