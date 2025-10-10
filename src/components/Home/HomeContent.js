@@ -31,14 +31,18 @@ const HomeContent = () => {
                         <div className="item-details d-flex flex-column gap-9 gap-md-15 p-8 p-md-9">
                             <div className="d-flex flex-column gap-5">
                                 <p className="text-primary fw-bold lh-lg house-name">{estate?.objektTyp ?? ''}</p>
-                                <div className="d-flex gap-4 home-address">
+                                <div className="d-flex gap-4 align-items-center home-address">
                                     <MapMarkerIcon />
-                                    <p className="text-light fw-normal lh-base text">
-                                        {estate?.adresse?.stadt ?? ''}{' '}
-                                        {estate?.adresse?.plz ?? ''}{', '}
-                                        {estate?.adresse?.strasse ?? ''}{' '}
-                                        {estate?.adresse?.nr ?? ''}{' '}
-                                    </p>
+                                    <div>
+                                        <p className="text-light fw-normal lh-base text">
+                                            {estate?.adresse?.stadt ?? ''}{' '}
+                                            {estate?.adresse?.plz ?? ''}{', '}
+                                        </p>
+                                        <p className="text-light fw-normal lh-base text">
+                                            {estate?.adresse?.strasse ?? ''}{' '}
+                                            {estate?.adresse?.nr ?? ''}{' '}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
