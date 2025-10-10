@@ -50,7 +50,9 @@ const HomeFooter = () => {
                     </div>
                 </div>
 
-                <p className="text-primary fw-bold text-decoration-underline cursor-pointer home-link">Узнать подробнее</p>
+                <a href="/landlord-v2">
+                    <p className="text-primary fw-bold text-decoration-underline cursor-pointer home-link">Узнать подробнее</p>
+                </a>
             </div>
 
             <img src={FooterAlt} className="d-none d-md-block right-image" />
