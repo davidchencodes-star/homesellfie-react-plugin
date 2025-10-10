@@ -1,5 +1,5 @@
 import HouseAlt from '../../assets/home/house-alt.jpg';
-import { HeartUnfillIcon, MapMarkerIcon, VuesaxLinearDiscountCirclePinkIcon } from '../../utils/svg';
+import { HeartUnfillIcon, MapMarkerIcon, DiscountCirclePinkSmallIcon } from '../../utils/svg';
 
 const HomeContent = () => {
     const houses = [
@@ -43,7 +43,7 @@ const HomeContent = () => {
                                 <div className="d-flex gap-8 price-container">
                                     <p className="text-primary fw-semibold lh-base house-price">{house.price}</p>
                                     <div className="d-flex gap-2" style={{ paddingTop: 3 }}>
-                                        <VuesaxLinearDiscountCirclePinkIcon className="price-info-icon" />
+                                        <DiscountCirclePinkSmallIcon className="price-info-icon" />
                                         <p className="text-secondary fw-normal lh-base home-price-info">Keine Kommission</p>
                                     </div>
                                 </div>

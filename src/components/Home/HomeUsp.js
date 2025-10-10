@@ -1,4 +1,4 @@
-import { DekraSertificateIcon, DropdownIconDown, DropdownIconUp, ThreeDViewIcon, VuesaxLinearDiscountCircleIcon } from "../../utils/svg";
+import { DekraSertificateIcon, DropdownIconDown, DropdownIconUp, ThreeDViewIcon, DiscountCircleIcon } from "../../utils/svg";
 
 const HomeUsp = () => {
 
@@ -50,7 +50,7 @@ const HomeUsp = () => {
                 <div className="d-flex justify-content-between">
                     <div className="d-flex gap-4 pe-5 rounded bg-danger w-fit-content align-items-center item-mark">
                         <div className="p-3 rounded icon lh-base">
-                            <VuesaxLinearDiscountCircleIcon />
+                            <DiscountCircleIcon />
                         </div>
                         <p className="text-primary fw-normal lh-lg mark-content-2">Никаких скрытых платежей</p>
                     </div>

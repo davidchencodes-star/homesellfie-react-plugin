@@ -28,6 +28,9 @@ import KontaktiereUnsModal from "./components/Price/Modal/Kontaktiere-uns";
 import "./components/Home/index.css";
 import Home from "./components/Home";
 
+import "./components/Landlord/index.css";
+import Landlord from "./components/Landlord";
+
 if (document.getElementById("we-total")) {
 	//check if element exists before rendering
 	render(
@@ -166,5 +169,12 @@ if (document.getElementById("we-home")) {
 	render(
 		<Home />,
 		document.getElementById("we-home")
+	);
+}
+
+if (document.getElementById("we-landlord")) {
+	render(
+		<Landlord />,
+		document.getElementById("we-landlord")
 	);
 }
