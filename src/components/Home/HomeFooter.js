@@ -53,7 +53,7 @@ const HomeFooter = () => {
                     </div>
                 </div>
 
-                <a href="/landlord-v2">
+                <a href="/landlord-v2" className="w-fit-content">
                     <p className="text-primary fw-bold text-decoration-underline cursor-pointer home-link">Узнать подробнее</p>
                 </a>
             </div>

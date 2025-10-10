@@ -61,7 +61,13 @@ const HomeContent = () => {
                 ))}
             </div>
 
-            <div className="button bg-secondary py-8 mx-auto rounded-1 text-center text-white fw-normal lh-base" style={{ fontSize: 16 }}>Смотреть все</div>
+            <a 
+                className="button bg-secondary py-8 mx-auto rounded-1 text-center text-white fw-normal lh-base text-decoration-none" 
+                style={{ fontSize: 16 }}
+                href="/alle-immobilien"
+            >
+                Смотреть все
+            </a>
         </div>
     )
 }
