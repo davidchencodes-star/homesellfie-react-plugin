@@ -5,7 +5,7 @@ const HomeContent = () => {
     const [estates, setEstates] = useState([]);
 
     useEffect(() => {
-        fetch('/wp-json/reactplug/v1/estates')
+        fetch('/wp-json/reactplug/v1/estates?type=limit&limit=8')
             .then(res => res.json())
             .then(data => setEstates(data))
             .catch(err => console.error(err));
