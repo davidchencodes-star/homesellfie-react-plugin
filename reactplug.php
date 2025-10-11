@@ -136,6 +136,13 @@ function shortcodeLandlord()
 
 add_shortcode('landlord', 'shortcodeLandlord');
 
+function shortcodeAllRealEstate()
+{
+    return '<div id="we-all-real-estate"></div>';
+}
+
+add_shortcode('all-real-estate', 'shortcodeAllRealEstate');
+
 
 add_action('wp_enqueue_scripts', 'enq_react');
 function enq_react()

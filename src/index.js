@@ -31,6 +31,9 @@ import Home from "./components/Home";
 import "./components/Landlord/index.css";
 import Landlord from "./components/Landlord";
 
+import "./components/AllRealEstate/index.css";
+import AllRealEstate from "./components/AllRealEstate";
+
 if (document.getElementById("we-total")) {
 	//check if element exists before rendering
 	render(
@@ -176,5 +179,12 @@ if (document.getElementById("we-landlord")) {
 	render(
 		<Landlord />,
 		document.getElementById("we-landlord")
+	);
+}
+
+if (document.getElementById("we-all-real-estate")) {
+	render(
+		<AllRealEstate />,
+		document.getElementById("we-all-real-estate")
 	);
 }
