@@ -20,51 +20,53 @@ const LandlordHeader = () => {
                 </div>
             </div>
 
-            <div className="d-flex w-100 px-9 px-md-5 px-lg-15 px-xl-12 gap-9 gap-md-0 justify-content-between usp">
+            <div className="d-flex w-100 usp">
 
-                <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
-                    <div className="item-icon rounded p-6">
-                        <ClockCircleIcon />
+                <div className="d-flex w-100 px-9 px-md-5 px-lg-15 px-xl-12 gap-9 gap-md-0 mx-auto justify-content-between" style={{ maxWidth: 1440 }}>
+                    <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
+                        <div className="item-icon rounded p-6">
+                            <ClockCircleIcon />
+                        </div>
+                        <div className="d-flex flex-column w-fit-content">
+                            <p className="text-primary fw-semibold lh-sm title">10 +</p>
+                            <p className="text-light fw-normal lh-lg subtitle">лет на рынке</p>
+                        </div>
                     </div>
-                    <div className="d-flex flex-column w-fit-content">
-                        <p className="text-primary fw-semibold lh-sm title">10 +</p>
-                        <p className="text-light fw-normal lh-lg subtitle">лет на рынке</p>
-                    </div>
-                </div>
 
-                <div className="item-divider"></div>
+                    <div className="item-divider"></div>
 
-                <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
-                    <div className="item-icon rounded p-6">
-                        <LikeIcon />
+                    <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
+                        <div className="item-icon rounded p-6">
+                            <LikeIcon />
+                        </div>
+                        <div className="d-flex flex-column w-fit-content">
+                            <p className="text-primary fw-semibold lh-sm title">1000 +</p>
+                            <p className="text-light fw-normal lh-lg subtitle">Довольных клиентов</p>
+                        </div>
                     </div>
-                    <div className="d-flex flex-column w-fit-content">
-                        <p className="text-primary fw-semibold lh-sm title">1000 +</p>
-                        <p className="text-light fw-normal lh-lg subtitle">Довольных клиентов</p>
-                    </div>
-                </div>
 
-                <div className="item-divider"></div>
+                    <div className="item-divider"></div>
 
-                <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
-                    <div className="item-icon rounded p-6">
-                        <HomeIcon />
+                    <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
+                        <div className="item-icon rounded p-6">
+                            <HomeIcon />
+                        </div>
+                        <div className="d-flex flex-column w-fit-content">
+                            <p className="text-primary fw-semibold lh-sm title">700 +</p>
+                            <p className="text-light fw-normal lh-lg subtitle">Проданных объектов</p>
+                        </div>
                     </div>
-                    <div className="d-flex flex-column w-fit-content">
-                        <p className="text-primary fw-semibold lh-sm title">700 +</p>
-                        <p className="text-light fw-normal lh-lg subtitle">Проданных объектов</p>
-                    </div>
-                </div>
 
-                <div className="item-divider"></div>
+                    <div className="item-divider"></div>
 
-                <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
-                    <div className="item-icon rounded p-6">
-                        <DiscountCirclePinkMediumIcon />
-                    </div>
-                    <div className="d-flex flex-column w-fit-content">
-                        <p className="text-primary fw-semibold lh-sm title">0%</p>
-                        <p className="text-light fw-normal lh-lg subtitle">Комиссии</p>
+                    <div className="d-flex py-8 py-lg-15 gap-8 w-fit-content">
+                        <div className="item-icon rounded p-6">
+                            <DiscountCirclePinkMediumIcon />
+                        </div>
+                        <div className="d-flex flex-column w-fit-content">
+                            <p className="text-primary fw-semibold lh-sm title">0%</p>
+                            <p className="text-light fw-normal lh-lg subtitle">Комиссии</p>
+                        </div>
                     </div>
                 </div>
             </div>
