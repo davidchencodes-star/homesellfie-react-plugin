@@ -10,13 +10,13 @@ const LandlordWhyChooseUs = () => {
                 <div className="d-flex flex-column gap-15 left-container">
                     <div className="d-flex flex-column gap-5">
                         <p className="text-primary fw-semibold title">
-                            Почему вам стоит продать свой дом с помощью Homeselfie?
+                            Warum mit homeselfie verkaufen?
                         </p>
                         <p className="text-light fw-normal lh-lg d-none d-md-block" style={{ fontSize: 16 }}>
-                            Доверяя нам продажу своего дома, Вы получаете:
+                            Ihre Vorteile im Überblick:
                         </p>
                         <p className="text-light fw-normal lh-lg d-block d-md-none" style={{ fontSize: 14 }}>
-                            Доверяя нам продажу своего дома, Вы получаете:
+                            Ihre Vorteile im Überblick:
                         </p>
                     </div>
 
@@ -26,10 +26,10 @@ const LandlordWhyChooseUs = () => {
                             <DekraSertificateBgPinkMediumIcon className="icon d-block d-xl-none" />
                             <div className="d-flex flex-column gap-4">
                                 <p className="text-primary fw-bold lh-sm subtitle">
-                                    Персональный местный брокер
+                                    Persönlicher, lokaler Ansprechpartner
                                 </p>
                                 <p className="text-light fw-normal lh-lg description">
-                                    Ваш местный агент по недвижимости будет сопровождать вас от оценки до подписания договора купли-продажи у нотариуса — надежно и лично.
+                                    Von der Immobilienbewertung bis zur notariellen Unterschrift – Ihr regionaler Makler ist an Ihrer Seite.
                                 </p>
                             </div>
                         </div>
@@ -39,10 +39,10 @@ const LandlordWhyChooseUs = () => {
                             <DiscountCircleBgPinkMediumIcon className="icon d-block d-xl-none" />
                             <div className="d-flex flex-column gap-4">
                                 <p className="text-primary fw-bold lh-sm subtitle">
-                                    Переосмысление брокерской комиссии
+                                    Schluss mit hohen prozentuale Maklergebühren
                                 </p>
                                 <p className="text-light fw-normal lh-lg description">
-                                    С нами вы платите фиксированную цену, независимо от цены продажи вашей недвижимости. Это экономит вам тысячи евро.
+                                    Bei uns zahlen Sie einen festen Fixpreis – unabhängig vom Verkaufspreis. Das spart Ihnen tausende Euro.
                                 </p>
                             </div>
                         </div>
@@ -52,17 +52,17 @@ const LandlordWhyChooseUs = () => {
                             <AnalyticsBgPinkMediumIcon className="icon d-block d-xl-none" />
                             <div className="d-flex flex-column gap-4">
                                 <p className="text-primary fw-bold lh-sm subtitle">
-                                    Мы сотрудничаем с крупнейшими рекламными площадками
+                                    Maximale Reichweite durch Top-Plattformen
                                 </p>
                                 <p className="text-light fw-normal lh-lg description">
-                                    У вас есть полный доступ к статистике всех объявлений в вашем аккаунте Homeselfie.
+                                    Alle Statistiken Ihrer Inserate jederzeit in Ihrem persönlichen homesellfie-Konto.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div className="pt-8 rounded-1 bg-secondary button">
-                        <h4 className="fw-normal lh-base text-white text-center">Узнать цены</h4>
+                        <h4 className="fw-normal lh-base text-white text-center">Preise einsehen</h4>
                     </div>
                 </div>
 
