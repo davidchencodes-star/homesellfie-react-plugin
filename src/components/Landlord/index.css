@@ -10,13 +10,14 @@
 
         .header-cover {
             width: 343px;
-            height: 204px;
+            /* height: 204px; */
             left: calc((100% - 343px) / 2);
-            top: 81px;
+            top: 139px;
 
             .title {
                 font-size: 22px;
                 padding: 0px 20px;
+                width: 293px;
             }
 
             .button {
@@ -470,11 +471,12 @@
 
         .header-cover {
             width: 668px;
-            height: 280px;
+            /* height: 280px; */
             left: calc((100% - 668px) / 2);
-            top: 71px;
+            top: 116px;
 
             .title {
+                width: 570px;
                 font-size: 50px;
                 padding: 0;
             }
@@ -713,9 +715,8 @@
 
         .header-cover {
             width: 946px;
-            height: 230px;
+            /* height: 230px; */
             left: calc((100% - 946px) / 2);
-            top: 91px;
         }
 
         .usp {
@@ -848,11 +849,12 @@
     .ll-header {
         .header-cover {
             width: 946px;
-            height: 248px;
+            /* height: 248px; */
             left: calc((100% - 946px) / 2);
-            top: 82px;
+            top: 110px;
 
             .title {
+                width: 628px;
                 font-size: 56px;
             }
         }

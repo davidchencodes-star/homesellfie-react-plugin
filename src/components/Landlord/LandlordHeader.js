@@ -7,7 +7,7 @@ const LandlordHeader = () => {
             <img src={HeaderBg} className="header-image" />
 
             <div className="position-absolute d-flex flex-column gap-15 header-cover">
-                <p className="text-white fw-bold fw-md-semibold lh-lg lh-md-1 text-center title">
+                <p className="text-white fw-bold fw-md-semibold lh-lg lh-md-1 text-center mx-auto title">
                     Ihr Immobilienverkauf zum besten Preis
                 </p>
 
