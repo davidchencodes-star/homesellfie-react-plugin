@@ -13,7 +13,7 @@ const HomeFooter = () => {
         <div className="d-flex px-8 px-md-9 px-lg-15 px-xl-12 mx-auto w-100 home-footer">
             <div className="d-flex flex-column gap-15 left-content">
                 <p className="text-primary fw-semibold fw-md-bold title">
-                    Хотите продать свою недвижимость? Тогда обратитесь за консультацией к нашим экспертам прямо сейчас.
+                    Sie möchten Ihre Immobilie verkaufen? Unsere Experten beraten Sie kostenlos und unverbindlich.
                 </p>
 
                 <div className="d-flex gap-5 justify-content-between description">
@@ -43,7 +43,7 @@ const HomeFooter = () => {
                             </div>
                         </div>
                         <p className="text-primary fw-normal lh-lg" style={{ fontSize: 15 }}>
-                            Мы будем рады помочь вам с продажей и расскажем подробнее о вашей выгоде.
+                            Wir unterstützen Sie beim Verkauf und zeigen Ihnen, wie Sie dabei am meisten profitieren.
                         </p>
                     </div>
 
@@ -54,7 +54,7 @@ const HomeFooter = () => {
                 </div>
 
                 <a href="/landlord-v2" className="w-fit-content">
-                    <p className="text-primary fw-bold text-decoration-underline cursor-pointer home-link">Узнать подробнее</p>
+                    <p className="text-primary fw-bold text-decoration-underline cursor-pointer home-link">Mehr erfahren</p>
                 </a>
             </div>
 
