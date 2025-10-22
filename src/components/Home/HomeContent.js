@@ -18,7 +18,7 @@ const HomeContent = () => {
     return (
         <div className="d-flex flex-column px-8 px-md-9 px-lg-15 px-xl-12 mx-auto position-relative home-content">
             <div className="position-absolute bg-title"></div>
-            <p className="text-primary fw-semibold fw-md-bold w-fit-content mx-md-auto title">Новые объекты недвижимости</p>
+            <p className="text-primary fw-semibold fw-md-bold w-fit-content mx-md-auto title">Neue Immobilienangebote</p>
 
             <div className="d-flex d-md-grid gap-8 gap-xl-9 items">
                 {estates.map((estate, index) => (
@@ -80,7 +80,7 @@ const HomeContent = () => {
                 style={{ fontSize: 16 }}
                 href="/alle-immobilien"
             >
-                Смотреть все
+                Weitere Objekte
             </a>
         </div>
     )

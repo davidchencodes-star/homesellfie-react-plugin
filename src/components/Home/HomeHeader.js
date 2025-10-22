@@ -19,7 +19,7 @@ const HomeHeader = () => {
                     onClick={() => { window.renderKontaktformular(true) }}
                 >
                     <WhitePhoneIcon />
-                    <p className="text-white fw-normal lh-base" style={{ fontSize: 16 }}>Kontaktiere uns</p>
+                    <p className="text-white fw-normal lh-base" style={{ fontSize: 16 }}>Kontakt aufnehmen</p>
                 </div>
             </div>
         </div>
