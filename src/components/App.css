@@ -4,3 +4,9 @@
     --we-dark: #707070;
     --we-textLight: #b1b1b1;
 }
+
+@media screen and (min-width: 1024px) {
+    #desktopNav .et_pb_column--with-menu {
+        margin-left: 50px !important;
+    }
+}
