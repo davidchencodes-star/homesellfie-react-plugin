@@ -6,12 +6,12 @@ const HomeHeader = () => {
         <div className="mx-0 position-relative home-header" style={{ backgroundImage: `url(${HeaderBg})` }}>
 
             <div className="position-absolute d-flex flex-column header-cover">
-                <p className="text-white fw-bold fw-md-semibold text-center title">
-                    Дом вашей мечты по фиксированной цене без скрытых платежей.
+                <p className="text-white fw-bold fw-md-semibold text-center mx-auto title">
+                    So verkaufst du deine Immobilie heute
                 </p>
 
                 <p className="text-white fw-normal lh-lg text-center mx-auto description">
-                    Наша миссия — изменить традиционный подход к покупке недвижимости, предлагая улучшенный сервис и честные фиксированные цены без скрытых комиссий.
+                    Wir begleiten deinen Immobilienverkauf mit digitalen und persönlichen Services bis zum Notariat. Zum Fixpreis
                 </p>
 
                 <div 
@@ -19,7 +19,7 @@ const HomeHeader = () => {
                     onClick={() => { window.renderKontaktformular(true) }}
                 >
                     <WhitePhoneIcon />
-                    <p className="text-white fw-normal lh-base" style={{ fontSize: 16 }}>Связаться с нами</p>
+                    <p className="text-white fw-normal lh-base" style={{ fontSize: 16 }}>Kontaktiere uns</p>
                 </div>
             </div>
         </div>

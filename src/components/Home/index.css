@@ -10,11 +10,12 @@
         .header-cover {
             gap: 30px;
             width: 345px;
-            height: 303px;
+            /* height: 303px; */
             left: calc((100% - 345px) / 2);
-            top: 52px;
+            top: 118px;
 
             .title {
+                width: 309px;
                 font-size: 22px;
                 line-height: 1.4;
             }
@@ -252,11 +253,12 @@
         .header-cover {
             gap: 35px;
             width: 703px;
-            height: 360px;
+            /* height: 360px; */
             left: calc((100% - 703px) / 2);
-            top: 75.5px;
+            top: 160px;
 
             .title {
+                width: 703px;
                 font-size: 50px;
                 line-height: 1.1;
             }
@@ -393,6 +395,10 @@
         .header-cover {
             width: 823px;
             left: calc((100% - 823px) / 2);
+
+            .title {
+                width: 733px;
+            }
         }
     }
 
@@ -479,12 +485,13 @@
 @media screen and (min-width: 1280px) {
     .home-header {
         .header-cover {
-            width: 1109px;
-            height: 319px;
-            left: calc((100% - 1109px) / 2);
-            top: 96px;
+            width: 593px;
+            /* height: 319px; */
+            left: calc((100% - 593px) / 2);
+            top: 131px;
 
             .title {
+                width: 593px;
                 font-size: 56px;
             }
         }
