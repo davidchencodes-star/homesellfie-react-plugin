@@ -52,6 +52,8 @@
                 height: 34px;
                 background-color: #D3D3D3;
                 margin-top: 23px;
+                flex-shrink: 0;
+                display: block;
             }
 
             .item-icon {
