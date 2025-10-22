@@ -14,7 +14,7 @@ const LandlordFooter = () => {
             <div className="d-flex flex-column gap-10 left-content">
                 <div className="d-flex flex-column gap-15">
                     <p className="text-primary fw-semibold fw-md-bold title">
-                        Хотите продать свою недвижимость? Тогда обратитесь за консультацией к нашим экспертам прямо сейчас.
+                        Sie möchten Ihre Immobilie verkaufen? Lassen Sie sich jetzt von unseren Experten beraten.
                     </p>
 
                     <div className="d-flex gap-5 justify-content-between description">
@@ -45,7 +45,7 @@ const LandlordFooter = () => {
                                 </div>
                             </div>
                             <h4 className="text-primary fw-normal lh-lg">
-                                Мы будем рады помочь вам с продажей и расскажем подробнее о вашей выгоде.
+                                Wir begleiten Sie beim Verkauf und zeigen Ihnen, wie Sie den besten Preis erzielen.
                             </h4>
                         </div>
 
@@ -61,7 +61,7 @@ const LandlordFooter = () => {
                         className="d-flex gap-4 py-8 button rounded-1 cursor-pointer button-left justify-content-center text-center d-none d-md-block"
                         onClick={() => { window.renderKontaktformular(true) }}
                     >
-                        <h4 className="text-primary fw-normal lh-base">Оставить заявку</h4>
+                        <h4 className="text-primary fw-normal lh-base">Jetzt anfragen</h4>
                     </div>
                     <div 
                         className="d-flex gap-4 py-8 button rounded-1 cursor-pointer bg-secondary justify-content-center"
