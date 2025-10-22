@@ -485,6 +485,7 @@
          .usp {
             .subtitle {
                 min-width: none;
+                min-width: 115px;
                 max-width: 115px;
                 white-space: normal;
                 font-size: 12px;
