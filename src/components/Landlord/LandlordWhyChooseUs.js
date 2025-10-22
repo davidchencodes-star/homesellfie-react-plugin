@@ -68,7 +68,7 @@ const LandlordWhyChooseUs = () => {
 
                 <div className="d-flex flex-column gap-9 pt-5 pt-md-0 right-container">
                     <div className="d-flex flex-column flex-xl-row gap-9">
-                        <div className="d-flex flex-column w-100 justify-content-between py-9 px-8 px-md-9 item item-1">
+                        <div className="d-flex flex-column w-100 gap-15 gap-xl-8 py-9 px-8 px-md-9 item item-1">
                             <div 
                                 className="d-flex gap-4 pe-5 rounded bg-danger w-fit-content align-items-center"
                                 style={{ height: 34 }}
@@ -81,15 +81,15 @@ const LandlordWhyChooseUs = () => {
 
                             <div className="d-flex flex-column gap-5 w-100">
                                 <p className="text-primary fw-bold lh-sm" style={{ fontSize: 18 }}>
-                                    Virtual 3D tours
+                                    Virtuelle 3D-Besichtigungen
                                 </p>
                                 <p className="text-light fw-normal lh-lg description">
-                                    Virtual 3D tours of your home and high-quality images that make our presentation stand out from the competition.
+                                    HD-Fotos, ein virtueller 360°-Rundgang und lasergenaue Grundrisse lassen die Immobilie im Inserat und der Verkaufsbroschüre optimal zur Geltung kommen. Bei älteren Immobilien wird ein Virtual Staging empfohlen.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="d-flex flex-column w-100 justify-content-between py-9 px-8 px-md-9 item item-2">
+                        <div className="d-flex flex-column w-100 gap-15 gap-xl-8 py-9 px-8 px-md-9 item item-2">
                             <div 
                                 className="d-flex gap-4 pe-5 rounded bg-danger w-fit-content align-items-center"
                                 style={{ height: 34 }}
@@ -97,7 +97,7 @@ const LandlordWhyChooseUs = () => {
                                 <div className="p-3 rounded icon lh-base">
                                     <ChartIcon />
                                 </div>
-                                <p className="text-primary fw-normal lh-lg h3">Analytics</p>
+                                <p className="text-primary fw-normal lh-lg h3">Analysen</p>
                             </div>
 
                             <div className="d-flex flex-column gap-5 w-100">
@@ -105,7 +105,7 @@ const LandlordWhyChooseUs = () => {
                                     Alle Analysen an einem Ort
                                 </p>
                                 <p className="text-light fw-normal lh-lg description">
-                                    Durch deinen LogIn halten wir dich 24 / 7 durchgehend zu deinem Verkauf auf dem neuesten Stand.
+                                    Mit Ihrem Login bleiben Sie rund um die Uhr über Ihren Verkauf informiert – Statistiken, Anfragen und Angebote jederzeit transparent und sofort verfügbar.
                                 </p>
                             </div>
                         </div>

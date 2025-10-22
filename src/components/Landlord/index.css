@@ -213,11 +213,11 @@
                 }
 
                 .item-1 {
-                    height: 197px;
+                    height: fit-content;
                 }
 
                 .item-2 {
-                    height: 187px;
+                    height: fit-content;
                 }
 
                 .item-3 {
@@ -594,14 +594,6 @@
                     }
                 }
 
-                .item-1 {
-                    height: 213px;
-                }
-
-                .item-2 {
-                    height: 193px;
-                }
-
                 .item-3 {
                     .logo {
                         left: 20px;
@@ -760,14 +752,6 @@
     .ll-why-choose-us {
         .real-container {
             .right-container {
-                .item-1 {
-                    height: 193px;
-                }
-
-                .item-2 {
-                    height: 171px;
-                }
-
                 .item-3 {
                     height: 368px;
 
@@ -935,11 +919,11 @@
                 padding-bottom: 110px;
 
                 .item-1 {
-                    height: 226px;
+                    height: 301px;
                 }
 
                 .item-2 {
-                    height: 226px;
+                    height: 301px;
                 }
 
                 .item-3 {
@@ -1033,6 +1017,14 @@
 
             .right-container {
                 max-width: 649px;
+
+                .item-1 {
+                    height: 281px;
+                }
+
+                .item-2 {
+                    height: 281px;
+                }
 
                 .item-3 {
                     .container-1 {
