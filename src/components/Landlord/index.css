@@ -37,11 +37,14 @@
             scrollbar-width: none;
 
             .title {
+                margin-top: -5px;
                 font-size: 18px;
             }
 
             .subtitle {
                 font-size: 14px;
+                white-space: normal;
+                min-width: 150px;
             }
 
             .item-divider {
@@ -478,6 +481,15 @@
                 width: 220px;
             }
         }
+
+         .usp {
+            .subtitle {
+                min-width: none;
+                max-width: 115px;
+                white-space: normal;
+                font-size: 12px;
+            }
+        }
     }
 
     .ll-second {
@@ -711,7 +723,9 @@
             }
 
             .subtitle {
-                font-size: 16px;
+                white-space: normal;
+                max-width: 140px;
+                font-size: 14px;
             }
 
             .item-divider {
@@ -837,6 +851,17 @@
 
             .title {
                 font-size: 56px;
+            }
+        }
+
+        .usp {
+            .title {
+                margin-top: 0px;
+            }
+
+            .subtitle {
+                max-width: none;
+                white-space: nowrap;
             }
         }
     }
