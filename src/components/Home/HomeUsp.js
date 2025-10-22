@@ -30,7 +30,7 @@ const HomeUsp = () => {
                         <div className="p-3 rounded icon lh-base">
                             <DekraSertificateIcon />
                         </div>
-                        <p className="text-primary fw-normal lh-lg mark-content-1">Личная поддержка</p>
+                        <p className="text-primary fw-normal lh-lg mark-content-1">Persönliche Betreuung</p>
                     </div>
 
                     <DropdownIconUp onClick={() => { onClickUspItem(1, false) }} id="icon-1-up" className="d-block d-md-none cursor-pointer" style={{ marginTop: 12 }} />
@@ -38,11 +38,11 @@ const HomeUsp = () => {
                 </div>
 
                 <p className="text-primary fw-bold lh-base lh-md-sm title">
-                    Персональный местный брокер
+                    Ihr persönlicher Immobilienmakler vor Ort
                 </p>
 
                 <p className="text-light fw-normal lh-lg description" id="desc-1">
-                    Dein lokaler Makler begleitet dich von der Bewertung bis zur Unterzeichnung des Kaufvertrags beim Notar – zuverlässig und persönlich!
+                    Ihr lokaler Immobilienmakler begleitet Sie zuverlässig und persönlich – von der Bewertung bis zum Notartermin!
                 </p>
             </div>
 
@@ -52,7 +52,7 @@ const HomeUsp = () => {
                         <div className="p-3 rounded icon lh-base">
                             <DiscountCircleIcon />
                         </div>
-                        <p className="text-primary fw-normal lh-lg mark-content-2">Никаких скрытых платежей</p>
+                        <p className="text-primary fw-normal lh-lg mark-content-2">Maklerprovision war gestern</p>
                     </div>
 
                     <DropdownIconUp onClick={() => { onClickUspItem(2, false) }} id="icon-2-up" className="d-block d-md-none cursor-pointer" style={{ marginTop: 12 }} />
@@ -60,11 +60,11 @@ const HomeUsp = () => {
                 </div>
 
                 <p className="text-primary fw-bold lh-base lh-md-sm title">
-                    Переосмысление брокерской комиссии
+                    Schluss mit teuren Maklerprovision
                 </p>
 
                 <p className="text-light fw-normal lh-lg description" id="desc-2">
-                    Egal welcher Objekttyp oder Verkaufspreis, die teure und steigende Maklerprovision ist bei homesellfie Geschichte. Bei uns bist Du davor sicher, versprochen.
+                    Egal welche Immobilie – wir verkaufen zum festen Preis. Klar. Fair. Transparent. Fix statt ZUVIEL: Ihre Immobilie verdient Klarheit, keine Provision.
                 </p>
             </div>
 
@@ -74,7 +74,7 @@ const HomeUsp = () => {
                         <div className="p-1 rounded icon lh-base">
                             <ThreeDViewIcon />
                         </div>
-                        <p className="text-primary fw-normal lh-lg mark-content-3">Тур 3D</p>
+                        <p className="text-primary fw-normal lh-lg mark-content-3">3D-Rundgang</p>
                     </div>
 
                     <DropdownIconUp onClick={() => { onClickUspItem(3, false) }} id="icon-3-up" className="d-block d-md-none cursor-pointer" style={{ marginTop: 12 }} />
@@ -82,11 +82,11 @@ const HomeUsp = () => {
                 </div>
 
                 <p className="text-primary fw-bold lh-base lh-md-sm title">
-                    Возможность просмотра всего дома онлайн
+                    Erleben Sie Ihr Zuhause online in jedem Detail.
                 </p>
 
                 <p className="text-light fw-normal lh-lg description" id="desc-3">
-                    Вы можете сэкономить время и совершить 3D-виртуальный тур по дому своей мечты.
+                    Sparen Sie Zeit und besichtigen Sie Ihr Traumhaus bequem per virtuellem 3D-Rundgang.
                 </p>
             </div>
         </div>
