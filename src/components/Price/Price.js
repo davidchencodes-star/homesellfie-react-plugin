@@ -1,5 +1,5 @@
 import PhoneWhite from "../../assets/images/svg/phone-white.svg";
-import PriceHeader from "../../assets/images/price-header.jpg";
+import PriceHeader from "../../assets/images/price-header-update.jpg";
 import DekraBrand from "../../assets/images/png/dekra-brand.png";
 import Dekra from "../../assets/images/svg/dekra.svg";
 import Provisionen from "../../assets/images/svg/provisionen.svg";
