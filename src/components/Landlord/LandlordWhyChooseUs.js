@@ -62,7 +62,7 @@ const LandlordWhyChooseUs = () => {
                     </div>
 
                     <div className="pt-8 rounded-1 bg-secondary button">
-                        <h4 className="fw-normal lh-base text-white text-center">Preise einsehen</h4>
+                        <h4 className="fw-normal lh-lg text-white text-center">Preise einsehen</h4>
                     </div>
                 </div>
 
