@@ -73,7 +73,7 @@ const LandlordWhyChooseUs = () => {
                                 className="d-flex gap-4 pe-5 rounded bg-danger w-fit-content align-items-center"
                                 style={{ height: 34 }}
                             >
-                                <div className="p-1 rounded icon">
+                                <div className="p-1 rounded icon d-flex">
                                     <ThreeDViewIcon />
                                 </div>
                                 <p className="text-primary fw-normal lh-lg h3">Tour 3D</p>
@@ -94,7 +94,7 @@ const LandlordWhyChooseUs = () => {
                                 className="d-flex gap-4 pe-5 rounded bg-danger w-fit-content align-items-center"
                                 style={{ height: 34 }}
                             >
-                                <div className="p-3 rounded icon lh-base">
+                                <div className="p-3 rounded icon lh-base d-flex">
                                     <ChartIcon />
                                 </div>
                                 <p className="text-primary fw-normal lh-lg h3">Analysen</p>
@@ -113,7 +113,7 @@ const LandlordWhyChooseUs = () => {
 
                     <div className="w-100 position-relative overflow-hidden item item-3">
                         <div className="position-absolute d-flex gap-4 pe-5 rounded bg-danger w-fit-content align-items-center logo">
-                            <div className="p-3 rounded icon lh-base">
+                            <div className="p-3 rounded icon lh-base d-flex">
                                 <AnalyticsIcon />
                             </div>
                             <p className="text-primary fw-normal lh-lg h3">Макркетинг</p>

@@ -68,7 +68,7 @@ const LandlordFooter = () => {
                         onClick={() => { window.renderKontaktformular(true) }}
                     >
                         <WhitePhoneIcon />
-                        <h4 className="text-white fw-normal lh-base d-none d-md-block">
+                        <h4 className="text-white fw-normal lh-lg d-none d-md-block">
                             Kontaktiere uns
                         </h4>
                         <h3 className="text-white fw-normal lh-base d-block d-md-none">

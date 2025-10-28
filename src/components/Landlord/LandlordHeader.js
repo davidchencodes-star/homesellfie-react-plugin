@@ -24,7 +24,7 @@ const LandlordHeader = () => {
 
                 <div className="d-flex w-100 px-9 px-md-5 px-lg-15 px-xl-12 gap-9 gap-md-0 mx-auto justify-content-between" style={{ maxWidth: 1440 }}>
                     <div className="d-flex py-8 py-lg-15 gap-8 gap-md-5 gap-8 w-fit-content">
-                        <div className="item-icon rounded p-6">
+                        <div className="item-icon rounded p-6 d-flex">
                             <ClockCircleIcon />
                         </div>
                         <div className="d-flex flex-column w-fit-content">
@@ -36,7 +36,7 @@ const LandlordHeader = () => {
                     <div className="item-divider"></div>
 
                     <div className="d-flex py-8 py-lg-15 gap-8 gap-md-5 gap-8 w-fit-content">
-                        <div className="item-icon rounded p-6">
+                        <div className="item-icon rounded p-6 d-flex">
                             <ClickTapIcon />
                         </div>
                         <div className="d-flex flex-column w-fit-content">
@@ -48,7 +48,7 @@ const LandlordHeader = () => {
                     <div className="item-divider"></div>
 
                     <div className="d-flex py-8 py-lg-15 gap-8 gap-md-5 gap-8 w-fit-content">
-                        <div className="item-icon rounded p-6">
+                        <div className="item-icon rounded p-6 d-flex">
                             <HandStarsIcon />
                         </div>
                         <div className="d-flex flex-column w-fit-content">
@@ -60,7 +60,7 @@ const LandlordHeader = () => {
                     <div className="item-divider"></div>
 
                     <div className="d-flex py-8 py-lg-15 gap-8 gap-md-5 gap-8 w-fit-content me-9 me-md-0">
-                        <div className="item-icon rounded p-6">
+                        <div className="item-icon rounded p-6 d-flex">
                             <TagIcon />
                         </div>
                         <div className="d-flex flex-column w-fit-content">

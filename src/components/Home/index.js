@@ -9,7 +9,7 @@ const Home = () => {
     useEffect(() => {
         const disableHomepageLink = () => {
             setTimeout(() => {
-                const logoLinks = document.querySelectorAll('a[href="https://staging.homesellfie.de/"], a[href="/"]');
+                const logoLinks = document.querySelectorAll('a[href="https://staging.homesellfie.de/"], a[href="https://homesellfie.de/"] a[href="/"]');
 
                 logoLinks.forEach(logoLink => {
                     // Disable pointer & navigation
