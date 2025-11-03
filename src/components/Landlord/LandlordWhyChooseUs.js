@@ -116,7 +116,7 @@ const LandlordWhyChooseUs = () => {
                             <div className="p-3 rounded icon lh-base d-flex">
                                 <AnalyticsIcon />
                             </div>
-                            <p className="text-primary fw-normal lh-lg h3">Макркетинг</p>
+                            <p className="text-primary fw-normal lh-lg h3">Marketing</p>
                         </div>
 
                         <div className="position-absolute container-1" style={{ backgroundImage: `url(${IntroBg})` }}>
