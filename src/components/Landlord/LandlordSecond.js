@@ -1,4 +1,4 @@
-import MovieAlt from "../../assets/landlord/movie-alt.png";
+import MovieAlt from "../../assets/landlord/movie-alt.jpg";
 import { PlayIcon } from "../../utils/svg";
 
 const LandlordSecond = () => {

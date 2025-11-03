@@ -1,6 +1,6 @@
 import IntroBg from "../../assets/landlord/intro-bg.png";
-import IntroFirst from "../../assets/landlord/intro-1.png";
-import IntroSecond from "../../assets/landlord/intro-2.png";
+import IntroFirst from "../../assets/landlord/intro-1.jpg";
+import IntroSecond from "../../assets/landlord/intro-2.jpg";
 import { AnalyticsBgPinkLargeIcon, AnalyticsBgPinkMediumIcon, AnalyticsIcon, ChartIcon, DekraSertificateBgPinkLargeIcon, DekraSertificateBgPinkMediumIcon, DiscountCircleBgPinkLargeIcon, DiscountCircleBgPinkMediumIcon, ThreeDViewIcon } from "../../utils/svg";
 
 const LandlordWhyChooseUs = () => {

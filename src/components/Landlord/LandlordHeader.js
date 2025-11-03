@@ -1,4 +1,4 @@
-import HeaderBg from "../../assets/landlord/header-bg.png";
+import HeaderBg from "../../assets/landlord/header-bg.jpg";
 import { ClockCircleIcon, HomeIcon, LikeIcon, DiscountCirclePinkMediumIcon, WhitePhoneIcon, ClickTapIcon, HandStarsIcon, TagIcon } from "../../utils/svg";
 
 const LandlordHeader = () => {

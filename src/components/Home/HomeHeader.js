@@ -1,4 +1,4 @@
-import HeaderBg from '../../assets/home/header-bg.png';
+import HeaderBg from '../../assets/home/header-bg.jpg';
 import { WhitePhoneIcon } from '../../utils/svg';
 
 const HomeHeader = () => {
